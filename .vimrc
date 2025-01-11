@@ -20,7 +20,7 @@ set cursorline
 set shiftwidth=4
 
 " Set tab width to 4 columns.
-set tabstop=4
+set tabstop=2
 
 " Use space characters instead of tabs.
 set expandtab
@@ -72,6 +72,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-signify'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 map <C-o> :NERDTreeToggle<CR>
